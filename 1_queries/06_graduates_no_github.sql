@@ -1,0 +1,1 @@
+SELECT name, email, phone FROM students WHERE end_date is NOT NULL and github is NULL ORDER BY cohort_id;
